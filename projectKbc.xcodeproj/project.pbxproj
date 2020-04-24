@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		0B741E0E2419325D00E6B61F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B741E0D2419325D00E6B61F /* main.swift */; };
+		0B741E15241932AD00E6B61F /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B741E14241932AD00E6B61F /* Question.swift */; };
+		0B741E17241935AC00E6B61F /* Datasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B741E16241935AC00E6B61F /* Datasource.swift */; };
+		0B741E192419390800E6B61F /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B741E182419390800E6B61F /* Game.swift */; };
+		0B741E1B2419394A00E6B61F /* GameMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B741E1A2419394A00E6B61F /* GameMode.swift */; };
+		0B741E1D241939A900E6B61F /* LifeLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B741E1C241939A900E6B61F /* LifeLine.swift */; };
+		0B741E1F24193E9000E6B61F /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B741E1E24193E9000E6B61F /* Helper.swift */; };
+		0B741E212419547F00E6B61F /* Bank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B741E202419547F00E6B61F /* Bank.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +32,13 @@
 /* Begin PBXFileReference section */
 		0B741E0A2419325D00E6B61F /* projectKbc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = projectKbc; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B741E0D2419325D00E6B61F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		0B741E14241932AD00E6B61F /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		0B741E16241935AC00E6B61F /* Datasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datasource.swift; sourceTree = "<group>"; };
+		0B741E182419390800E6B61F /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		0B741E1A2419394A00E6B61F /* GameMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMode.swift; sourceTree = "<group>"; };
+		0B741E1C241939A900E6B61F /* LifeLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeLine.swift; sourceTree = "<group>"; };
+		0B741E1E24193E9000E6B61F /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		0B741E202419547F00E6B61F /* Bank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bank.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,13 @@
 			isa = PBXGroup;
 			children = (
 				0B741E0D2419325D00E6B61F /* main.swift */,
+				0B741E14241932AD00E6B61F /* Question.swift */,
+				0B741E202419547F00E6B61F /* Bank.swift */,
+				0B741E16241935AC00E6B61F /* Datasource.swift */,
+				0B741E182419390800E6B61F /* Game.swift */,
+				0B741E1E24193E9000E6B61F /* Helper.swift */,
+				0B741E1C241939A900E6B61F /* LifeLine.swift */,
+				0B741E1A2419394A00E6B61F /* GameMode.swift */,
 			);
 			path = projectKbc;
 			sourceTree = "<group>";
@@ -120,7 +141,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B741E1B2419394A00E6B61F /* GameMode.swift in Sources */,
+				0B741E212419547F00E6B61F /* Bank.swift in Sources */,
+				0B741E1F24193E9000E6B61F /* Helper.swift in Sources */,
+				0B741E17241935AC00E6B61F /* Datasource.swift in Sources */,
 				0B741E0E2419325D00E6B61F /* main.swift in Sources */,
+				0B741E1D241939A900E6B61F /* LifeLine.swift in Sources */,
+				0B741E15241932AD00E6B61F /* Question.swift in Sources */,
+				0B741E192419390800E6B61F /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
